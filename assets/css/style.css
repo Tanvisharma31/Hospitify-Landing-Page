@@ -169,7 +169,7 @@ h5 {
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 ul,
@@ -180,7 +180,7 @@ ol {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   color: #747E88;
@@ -208,7 +208,7 @@ p {
   user-select: none;
   border: 2px solid #0898E7;
   padding: 0 25px;
-  font-size: 16px;
+  font-size: 20px;
   height: 55px;
   line-height: 51px;
   border-radius: 5px;
@@ -838,7 +838,7 @@ p {
 }
 
 .navbar-nav .nav-item a {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   color: #38424D;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1901,7 +1901,7 @@ p {
 
 .footer-contact .contact-list li .contact-info .info-content .text {
   color: #747E88;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .footer-contact .contact-list li .contact-info .info-content .text a {
@@ -1936,7 +1936,7 @@ p {
 }
 
 .footer-copyright .copyright .copyright-privacy a {
-  font-size: 16px;
+  font-size: 20px;
   color: #747E88;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -2006,7 +2006,7 @@ h3 {
 
 p {
   margin: 0; /* Remove default margin */
-  font-size: 16px;
+  font-size: 20px;
 }
 .insights-section {
   background-color: #f4f4f4; /* Light background color for contrast */
@@ -2054,5 +2054,5 @@ h3 {
 p {
   color: #555; /* Subtle text color */
   line-height: 1.6; /* Improved readability */
-  font-size: 16px;
+  font-size: 20px;
 }
