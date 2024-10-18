@@ -731,9 +731,13 @@ p {
 .navbar-brand {
   padding: 0;
 }
-
+.logo img {
+  max-width: 100px;
+  max-height: 100px;
+}
 .navbar-brand img {
-  max-width: 150px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .navbar-toggler {
@@ -2004,37 +2008,49 @@ p {
   margin: 0; /* Remove default margin */
 }
 .insights-section {
-  background-color: #f0f4f8; /* Light background color for contrast */
-  padding: 50px 20px; /* Vertical padding for space around content */
-  border-radius: 8px; /* Rounded corners for a softer look */
+  background-color: #f4f4f4; /* Light background color for contrast */
+  padding-top: 110px;
+  padding-bottom: 120px;
+  position: relative; /* For absolute positioning of any decorative elements */
+  overflow: hidden; /* Prevent overflow from animations */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem; /* Adjust as needed */
+  color: #333; /* Dark text color */
+}
+
+.insights-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px; /* Space between cards */
+  margin: 0 auto; /* Center the grid */
+  max-width: 1200px; /* Max width of the content */
+}
+
+.insight-card {
+  background-color: white; /* Card background color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the cards */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  text-align: center; /* Center text for better presentation */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth animation */
+  overflow: hidden; /* Ensure no overflow */
 }
 
-.insights-section  h2 {
-  font-size: 2.5em; /* Larger font size for the title */
-  margin-bottom: 20px; /* Space below the title */
-  color: #2c3e50; /* Dark color for the title */
+.insight-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
 }
 
-.insights-section p {
-  font-size: 1.2em; /* Slightly larger font size for readability */
-  line-height: 1.6; /* Increased line height for better readability */
-  margin: 10px 0; /* Space between paragraphs */
-  color: #34495e; /* Darker color for the text */
+h3 {
+  margin-bottom: 15px; /* Space between title and text */
+  font-size: 1.5rem; /* Adjust title size */
+  color: #007bff; /* Accent color for titles */
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .insights-section {
-    padding: 30px 15px; /* Adjust padding for smaller screens */
-  }
-
-  h2 {
-    font-size: 2em; /* Smaller title size on mobile */
-  }
-
-  p {
-    font-size: 1em; /* Smaller paragraph size on mobile */
-  }
+p {
+  color: #555; /* Subtle text color */
+  line-height: 1.6; /* Improved readability */
 }
