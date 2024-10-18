@@ -691,6 +691,7 @@ p {
 
 .navbar {
   top: -30px;
+  padding: 0;
   border-radius: 20px;
   position: relative;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1124,6 +1125,102 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-hero-content {
     padding-top: 150px;
+  }
+}
+/* For extra small devices (phones, 0px to 575px) */
+@media only screen and (max-width: 575px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: smaller; /* Adjust font sizes */
+  }
+  
+  .section-title .title, .header-hero-content .header-title {
+    font-size: 18px; /* Reduce title size */
+  }
+
+  .navbar-nav .nav-item a {
+    font-size: 16px; /* Smaller navigation text */
+  }
+
+  .single-services, .step, .insight-card {
+    padding: 15px; /* Reduce padding on cards and steps */
+  }
+
+  /* Stack sections for small screens */
+  .steps, .insights-content {
+    grid-template-columns: 1fr; /* Single column layout */
+  }
+
+  .navbar-toggler {
+    margin: 10px;
+  }
+}
+
+/* For small devices (phones, 576px to 767px) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: medium; /* Adjust for small devices */
+  }
+  
+  .section-title .title, .header-hero-content .header-title {
+    font-size: 24px; /* Medium title size */
+  }
+
+  .navbar-nav .nav-item a {
+    font-size: 18px; /* Adjust text for small devices */
+  }
+
+  .steps, .insights-content {
+    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+  }
+}
+
+/* For medium devices (tablets, 768px to 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #fff; /* Ensure navbar looks good on tablets */
+    padding: 10px;
+  }
+
+  .header-hero {
+    height: 600px; /* Adjust header height for tablets */
+  }
+
+  .steps, .insights-content {
+    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+  }
+
+  .section-title .title {
+    font-size: 26px; /* Increase font size for medium screens */
+  }
+}
+
+/* For large devices (desktops, 992px to 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-hero {
+    height: 750px; /* Adjust header height */
+  }
+
+  .steps, .insights-content {
+    grid-template-columns: repeat(3, 1fr); /* Three columns layout */
+  }
+
+  .navbar-nav .nav-item a {
+    font-size: 20px; /* Larger text on desktop */
+  }
+}
+
+/* For extra large devices (large desktops, 1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .steps, .insights-content {
+    grid-template-columns: repeat(4, 1fr); /* Four columns layout */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: large; /* Increase font size for large screens */
+  }
+
+  .header-hero {
+    height: 900px; /* Increase header size for large screens */
   }
 }
 
