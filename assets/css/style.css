@@ -2006,6 +2006,7 @@ h3 {
 
 p {
   margin: 0; /* Remove default margin */
+  font-size: 16px;
 }
 .insights-section {
   background-color: #f4f4f4; /* Light background color for contrast */
@@ -2053,4 +2054,5 @@ h3 {
 p {
   color: #555; /* Subtle text color */
   line-height: 1.6; /* Improved readability */
+  font-size: 16px;
 }
