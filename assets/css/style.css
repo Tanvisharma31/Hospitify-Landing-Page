@@ -1,24 +1,15 @@
 
-body {
+/* Apply overflow hidden only to body and html */
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
   font-family: 'Satoshi', sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #747E88;
-  overflow-x: hidden;
-  color: #333;
+  color: #333; /* Removed the duplicate color */
   background-color: #f4f4f4;
 }
 
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-
+/* Remove the universal overflow-x hidden rule */
 
 header {
   color: white;
