@@ -1168,10 +1168,6 @@ p {
     padding: 10px;
   }
 
-  .header-hero {
-    height: 600px; /* Adjust header height for tablets */
-  }
-
   .steps, .insights-content {
     grid-template-columns: repeat(2, 1fr); /* Two columns layout */
   }
