@@ -5,6 +5,8 @@ body {
   font-style: normal;
   color: #747E88;
   overflow-x: hidden;
+  color: #333;
+  background-color: #f4f4f4;
 }
 
 
@@ -14,15 +16,9 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-body {
-  font-family: 'Satoshi', sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: #f4f4f4;
-}
 
 header {
   color: white;
