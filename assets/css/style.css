@@ -743,13 +743,13 @@ p {
   top: -7px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .navbar-collapse {
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #000000;
     z-index: 9;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
@@ -1164,7 +1164,7 @@ p {
 /* For medium devices (tablets, 768px to 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-collapse {
-    background-color: #fff; /* Ensure navbar looks good on tablets */
+    background-color: #0a0a0a; /* Ensure navbar looks good on tablets */
     padding: 10px;
   }
 
